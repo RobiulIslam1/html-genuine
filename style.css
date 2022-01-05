@@ -1,3 +1,6 @@
+body{
+    margin: 0%;
+}
 .intro{
     display: flex;
     background-color: aqua;
@@ -12,9 +15,32 @@
 }
 #hire-me{
     text-decoration: none;
-    background-image: linear-gradient(rgb(136, 255, 0), rgb(221, 158, 158));
+    background-image: linear-gradient(rgb(247, 151, 7), rgb(221, 158, 158));
     padding: 5px 25px;
 }
 .img{
     width: 100%;
+}
+.div2{
+
+    display: flex;
+}
+.experiences{
+    width: 50%;
+    margin: 5%;
+
+}
+.experiences img{
+    width: 100%;
+}
+#font-p{
+    font-size: 40px;
+    padding-left: 10px;
+    
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.sec-2{
+    background-color: rgb(233, 214, 190);
 }
