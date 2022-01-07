@@ -4,6 +4,9 @@ body{
 .intro{
     display: flex;
     background-color: aqua;
+    font-size: 40px;
+    text-align: justify;
+    
     
 }
 .color{
@@ -17,9 +20,11 @@ body{
     text-decoration: none;
     background-image: linear-gradient(rgb(247, 151, 7), rgb(221, 158, 158));
     padding: 5px 25px;
+    border-radius: 10px;
 }
 .img{
     width: 100%;
+    padding-left: 200px;
 }
 .div2{
 
@@ -30,17 +35,18 @@ body{
     margin: 5%;
 
 }
+.sec-2{
+    background-color: rgb(233, 214, 190);
+}
 .experiences img{
     width: 100%;
 }
 #font-p{
     font-size: 40px;
-    padding-left: 10px;
-    
+    text-align: justify;
     margin-left: 5%;
     margin-right: 5%;
-
-}
-.sec-2{
-    background-color: rgb(233, 214, 190);
+    box-shadow: 10px 10px 40px tomato;
+    padding: 10px;
+    border-radius: 15px;
 }
