@@ -1,13 +1,12 @@
 body{
     margin: 0%;
+    width: 100%;
 }
 .intro{
     display: flex;
     background-color: aqua;
     font-size: 40px;
-    text-align: justify;
-    
-    
+    text-align: justify;background-image: linear-gradient(blue, red);
 }
 .color{
     color:orange;
@@ -36,7 +35,9 @@ body{
 
 }
 .sec-2{
-    background-color: rgb(233, 214, 190);
+    background-image: linear-gradient(rgb(248, 15, 15), gray);
+
+    background-repeat: no-repeat;
 }
 .experiences img{
     width: 100%;
@@ -49,4 +50,12 @@ body{
     box-shadow: 10px 10px 40px tomato;
     padding: 10px;
     border-radius: 15px;
+}
+.lorem{
+    box-shadow: 10px 10px 40px blue;
+    border: 5px solid red;
+    margin: 10px;
+    padding: 10px;
+    font-size: 40px;
+    
 }
